@@ -191,5 +191,10 @@ const has = {
 export { is, has, within };
 
 export default {
-  install: Vue => Vue.prototype.$platform = { is, has, within }
+  is,
+  has,
+  within,
+  install: Vue => Vue ?
+    Vue.prototype.$platform = { is, has, within } :
+    (console.error('You should pass the Vue to install the plugin'))
 };

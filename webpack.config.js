@@ -6,7 +6,7 @@ const commonConfig = {
   mode: 'production',
   entry: './src/index.js',
   output: {
-    library: '$platform',
+    library: 'platform',
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
@@ -34,7 +34,7 @@ const browserConfig = {
 
 const nodeConfig = {
   output: {
-    filename: 'platform.js',
+    filename: 'index.js',
     libraryTarget: 'umd',
     umdNamedDefine: true
   }

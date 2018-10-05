@@ -1,6 +1,6 @@
 {
   "name": "@danielpiva/platform",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A 3,5kb standalone and dependency-free library that seemsly identifies the platform that your web app is running on.",
   "main": "index.js",
   "repository": "https://github.com/imdanielpiva/platform.git",
@@ -8,15 +8,13 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "yarn webpack --config ./webpack.config.js",
-    "release": "yarn publish --access public"
+    "build": "yarn webpack --config ./webpack.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^0.1.19",
-    "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
     "webpack-merge": "^4.1.4"
