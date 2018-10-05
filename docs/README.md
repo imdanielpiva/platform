@@ -2,7 +2,7 @@
 
 A 3,5kb standalone and dependency-free library that seemsly identifies the platform that your web app is running on.
 
-You can read this documentation in: [Português Brasileiro](https://github.com/imdanielpiva/platform/tree/docs/pt-br.md).
+You can read this documentation in: [Português Brasileiro](https://github.com/imdanielpiva/platform/blob/master/docs/pt-br.md).
 
 > **Disclaimer**: it was borrowed from [Quasar Framework](https://quasar-framework.org/components/platform-detection.html) and adapted to work as standalone library.
 
