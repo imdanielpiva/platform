@@ -2,7 +2,7 @@
 
 A 3,5kb standalone and dependency-free library that seemsly identifies the platform that your web app is running on.
 
-You can read this documentation in [Português Brasileiro](https://github.com/imdanielpiva/).
+You can read this documentation in: [Português Brasileiro](https://github.com/imdanielpiva/platform/tree/docs/pt-br.md).
 
 > **Disclaimer**: it was borrowed from [Quasar Framework](https://quasar-framework.org/components/platform-detection.html) and adapted to work as standalone library.
 
@@ -10,19 +10,19 @@ You can read this documentation in [Português Brasileiro](https://github.com/im
 
 <!--ts-->
    * [Installation](#installation)
-      * [es5/es6](#es5es6-example)
-      * [Browser](#browser-example)
+      * [ES6 Example](#es6-example)
+      * [Browser Example](#browser-example)
     * [API](#api)
     * [As a Vue Plugin](#as-a-vue-js-2-plugin)
-      * [es5/es6](#es5es6-example-1)
-      * [Browser](#browser-example-1)
+      * [ES6 Example](#es6-example-1)
+      * [Browser Example](#browser-example-1)
    * [Contribuiting](#contributing)
    * [Author](#author)
 <!--te-->
 
 ### Installation
 
-##### ES5/ES6 Example
+##### ES6 Example
 ```javascript
 import platform from '@danielpiva/platform/dist';
 
@@ -105,9 +105,9 @@ Example when running Chrome on a Linux desktop machine:
 ```
 
 ### As a Vue JS 2 Plugin
-`@danielpiva/platform` works as Vue plugin out of the box.
+`@danielpiva/platform` also works as Vue plugin out of the box.
 
-##### ES5/ES6 Example
+##### ES6 Example
 ```javascript
 import Vue from 'vue';
 import platform from 'platform';
