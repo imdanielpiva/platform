@@ -2,7 +2,7 @@
 
 A 3,5kb standalone and dependency-free library that seemsly identifies the platform that your web app is running on.
 
-You can read this documentation in: [Português Brasileiro](https://github.com/imdanielpiva/platform/blob/development/docs/pt-br.md).
+You can read this documentation in: [Português Brasileiro](https://github.com/imdanielpiva/platform/tree/docs/pt-br.md).
 
 > **Disclaimer**: it was borrowed from [Quasar Framework](https://quasar-framework.org/components/platform-detection.html) and adapted to work as standalone library.
 
@@ -12,8 +12,8 @@ You can read this documentation in: [Português Brasileiro](https://github.com/i
    * [Installation](#installation)
       * [ES6 Example](#es6-example)
       * [Browser Example](#browser-example)
-    * [API](#api)
-    * [As a Vue Plugin](#as-a-vue-js-2-plugin)
+  * [API](#api)
+  * [As a Vue Plugin](#as-a-vue-js-2-plugin)
       * [ES6 Example](#es6-example-1)
       * [Browser Example](#browser-example-1)
    * [Contribuiting](#contributing)
