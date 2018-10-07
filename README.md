@@ -22,6 +22,19 @@ You can read this documentation in: [Português Brasileiro](https://github.com/i
 
 ### Installation
 
+> **Note**: To run any of the following commands below you will need to have [Node](https://nodejs.org/) installed in your machine.
+> To use [Yarn](https://yarnpkg.com/docs/install/) you will need to have it installed too, NPM already comes with Node.
+
+To download the library in an ES6 project, just run one of the listed commands below.
+
+```bash
+# Using Yarn
+yarn add @danielpiva/platform
+
+# Using NPM
+npm install @danielpiva/platform --save
+```
+
 ##### ES6 Example
 ```javascript
 import platform from '@danielpiva/platform/dist';

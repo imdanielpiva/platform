@@ -22,6 +22,19 @@ Você também pode ler esta documentação em: [English](https://github.com/imda
 
 ### Instalação
 
+> **Note**: Para rodar qualquer dos comandos listados abaixo você precisará ter [Node](https://nodejs.org/) instalado na sua máquina.
+> Para usar o [Yarn](https://yarnpkg.com/docs/install/) você também precisará tê-lo instalado em sua máquina, NPM já vem com o Node.
+
+Para baixar a biblioteca em um projeto ES6, rode algum dos comandos abaixo.
+
+```bash
+# Usando Yarn
+yarn add @danielpiva/platform
+
+# Usando NPM
+npm install @danielpiva/platform --save
+```
+
 ##### Exemplo em ES6
 ```javascript
 import platform from '@danielpiva/platform/dist';
